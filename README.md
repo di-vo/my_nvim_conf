@@ -33,3 +33,9 @@
 ```bash
   sudo apt install unzip
 ```
+
+### Manual mason installs
+
+- stylua
+- prettier
+- [eslint](https://stackoverflow.com/questions/78150730/failed-to-load-builtin-eslint-d-for-method-diagnostics)
