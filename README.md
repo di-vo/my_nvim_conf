@@ -28,3 +28,4 @@
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [Nerd Font](https://www.nerdfonts.com/)
   - install a font on windows and change it for the console
+- [NodeJS/npm](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/)
