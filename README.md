@@ -16,8 +16,14 @@
 ### Programs / Tools
 
 - wsl:
-  - installing: in cmd -> wsl --install (for Ubuntu)
-  - uninstalling: in cmd -> wsl --unregister <DistroName>
+  - installing:
+  ```bash
+    wsl --install
+  ```
+  - uninstalling:
+  ```bash
+    wsl --unregister Ubuntu
+  ```
 - [build essentials](https://linuxize.com/post/how-to-install-gcc-on-ubuntu-20-04/)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [Nerd Font](https://www.nerdfonts.com/)
