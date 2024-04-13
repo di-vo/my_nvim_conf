@@ -33,9 +33,13 @@
 ```bash
   sudo apt install unzip
 ```
+- python:
+```bash
+  sudo apt install python3.10-venv
+```
 
 ### Manual mason installs
 
 - stylua
 - prettier
-- [eslint](https://stackoverflow.com/questions/78150730/failed-to-load-builtin-eslint-d-for-method-diagnostics)
+- clang-format
