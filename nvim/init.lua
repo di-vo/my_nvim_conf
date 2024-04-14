@@ -15,11 +15,3 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-options")
 require("lazy").setup("plugins")
-
---local pid = vim.fn.getpid()
-
---local omnisharp_bin = "~/.local/bin/omnisharp-roslyn/OmniSharp"
-
---require("lspconfig").omnisharp.setup({
---    cmd = { omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) },
---})

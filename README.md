@@ -61,3 +61,4 @@
   // path to themes
   $(brew --prefix oh-my-posh)/themes
 ```
+- [tmuxifier](https://github.com/jimeh/tmuxifier)
