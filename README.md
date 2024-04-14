@@ -37,6 +37,7 @@
 ```bash
   sudo apt install python3.10-venv
 ```
+- [dotnet](https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?pivots=os-linux-ubuntu-2204&tabs=dotnet6)
 
 ### Manual mason installs
 
@@ -47,7 +48,12 @@
 ## TMUX / Styling
 
 - [Colorscheme](https://github.com/catppuccin/catppuccin)
+  - use it for windows terminal, neovim, tmux
 - [TMP](https://github.com/tmux-plugins/tpm)
+  - Setting to apply nvim colorscheme in tmux
+  ```
+  set-option -ga terminal-overrides ",xterm-256color:Tc"
+  ```
 - Windows Terminal (MS Store)
 - [brew](https://brew.sh/)
 - [omp](https://ohmyposh.dev/docs/installation/linux)
