@@ -43,3 +43,15 @@
 - stylua
 - prettier
 - clang-format
+
+## TMUX / Styling
+
+- [Colorscheme](https://github.com/catppuccin/catppuccin)
+- [TMP](https://github.com/tmux-plugins/tpm)
+- Windows Terminal (MS Store)
+- [brew](https://brew.sh/)
+- [omp](https://ohmyposh.dev/docs/installation/linux)
+```bash
+  // path to themes
+  $(brew --prefix oh-my-posh)/themes
+```
