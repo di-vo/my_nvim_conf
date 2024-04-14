@@ -47,6 +47,7 @@
 
 ## TMUX / Styling
 
+- [tmux setup](https://www.youtube.com/watch?v=jaI3Hcw-ZaA)
 - [Colorscheme](https://github.com/catppuccin/catppuccin)
   - use it for windows terminal, neovim, tmux
 - [TMP](https://github.com/tmux-plugins/tpm)
@@ -58,7 +59,20 @@
 - [brew](https://brew.sh/)
 - [omp](https://ohmyposh.dev/docs/installation/linux)
 ```bash
-  // path to themes
+  # path to themes
   $(brew --prefix oh-my-posh)/themes
 ```
 - [tmuxifier](https://github.com/jimeh/tmuxifier)
+
+## Bash profile
+
+```bash
+# ... auto generated config
+eval "$(oh-my-posh init bash --config $(brew --prefix oh-my-posh)/themes/catppuccin.omp.json)"
+
+PATH="$HOME/.tmuxifier/bin:$PATH"
+
+eval "$(tmuxifier init -)"
+
+export EDITOR=~/.local/bin/nvim-linux64/bin/nvim
+```
