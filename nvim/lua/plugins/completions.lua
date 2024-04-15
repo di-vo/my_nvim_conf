@@ -36,6 +36,7 @@ return {
                     { name = "nvim_lsp" },
 					{ name = "luasnip" },
                     { name = "csharp_ls" },
+                    { name = "gopls" },
 				}, {
 					{ name = "buffer" },
 				}),
