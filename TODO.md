@@ -1,8 +1,9 @@
 # TODO
 
 - [ ] look at tmuxifier sessions
-- [ ] get lsp for go, rust
+- [x] get lsp for go
+- [ ] get lsp for rust
 - [ ] git integration
 - [ ] keymap cheatsheet
-- [ ] markdown integration
+- [x] markdown integration
 - [ ] set up vimux for running project per language

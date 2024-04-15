@@ -1,5 +1,17 @@
 # Neovim Setup
 
+## Table of Contents
+
+- [Neovim Setup](#neovim-setup)
+  - [Table of Contents](#table-of-contents)
+  - [External Requirements](#external-requirements)
+    - [Filesystem structure:](#filesystem-structure)
+    - [Programs / Tools](#programs--tools)
+    - [Manual mason installs](#manual-mason-installs)
+  - [TMUX / Styling](#tmux--styling)
+  - [Bash profile](#bash-profile)
+
+
 ## External Requirements
 
 ### Filesystem structure:
