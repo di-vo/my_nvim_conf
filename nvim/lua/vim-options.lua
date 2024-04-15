@@ -11,6 +11,7 @@ vim.g.background = "light"
 vim.opt.swapfile = false
 
 vim.wo.number = true
+vim.opt.relativenumber = true
 
 map("n", "<leader>oc", ":cd ~/.config/nvim<CR>", {})
 
@@ -18,3 +19,8 @@ map("n", "<C-k>", ":wincmd k<CR>", {})
 map("n", "<C-j>", ":wincmd j<CR>", {})
 map("n", "<C-h>", ":wincmd h<CR>", {})
 map("n", "<C-l>", ":wincmd l<CR>", {})
+
+map('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
+map('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
+map('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
+map('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
