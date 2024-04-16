@@ -88,3 +88,12 @@ eval "$(tmuxifier init -)"
 
 export EDITOR=~/.local/bin/nvim-linux64/bin/nvim
 ```
+
+## Notes
+
+- fixing clangd encoding warning:
+
+```bash
+nvim ~/.local/share/nvim/lazy/nvim-lspconfig/lua/lspconfig/server-configurations/clangd.lua
+```
+change offsetEncoding to only use utf-16

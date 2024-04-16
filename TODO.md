@@ -2,7 +2,7 @@
 
 - [ ] look at tmuxifier sessions
 - [x] get lsp for go
-- [ ] get lsp for rust
+- [x] get lsp for rust
 - [ ] git integration
 - [ ] keymap cheatsheet
 - [x] markdown integration

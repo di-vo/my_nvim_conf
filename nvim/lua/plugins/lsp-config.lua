@@ -10,7 +10,7 @@ return {
 		config = function()
 			require("mason-lspconfig").setup({
 				-- add new lsp name here
-				ensure_installed = { "lua_ls", "tsserver", "clangd", "csharp_ls", "gopls" },
+				ensure_installed = { "lua_ls", "tsserver", "clangd", "csharp_ls", "gopls", "rust_analyzer" },
 			})
 		end,
 	},
@@ -40,6 +40,10 @@ return {
 			})
 
 			lspconfig.gopls.setup({
+				capabilities = capabilities,
+			})
+
+			lspconfig.rust_analyzer.setup({
 				capabilities = capabilities,
 			})
 
