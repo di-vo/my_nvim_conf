@@ -47,10 +47,12 @@ return {
 				capabilities = capabilities,
 			})
 
-			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
-			vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
-			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
+            local map = vim.keymap.set
+			map("n", "K", vim.lsp.buf.hover, {})
+			map("n", "<leader>gd", vim.lsp.buf.definition, {})
+			map("n", "<leader>gr", vim.lsp.buf.references, {})
+			map({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
+            map("n", "<leader>rn", vim.lsp.buf.rename, {})
 		end,
 	},
 }
