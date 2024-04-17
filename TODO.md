@@ -3,7 +3,7 @@
 - [ ] look at tmuxifier sessions
 - [x] get lsp for go
 - [x] get lsp for rust
-- [ ] git integration
+- [x] git integration
 - [ ] keymap cheatsheet
 - [x] markdown integration
-- [ ] set up vimux for running project per language
+- [x] set up vimux for running project per language

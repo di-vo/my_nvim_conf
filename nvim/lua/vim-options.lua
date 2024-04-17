@@ -1,4 +1,5 @@
 local map = vim.keymap.set
+local M = {}
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
@@ -29,3 +30,22 @@ map("n", "<C-d>", "<C-d>zz")
 map("n", "<C-u>", "<C-u>zz")
 map("n", "n", "nzzzv")
 map("n", "N", "Nzzzv")
+
+-- save file and run program based on file type
+local save_and_run = function()
+    local ft = vim.api.nvim_buf_get_option(0, "filetype")
+
+    vim.cmd("silent! write")
+
+    if ft == "go" then
+       vim.cmd(":VimuxRunCommand('clear; go run .')")
+    elseif ft == "cpp" then
+        vim.cmd(":VimuxRunCommand('make')")
+        vim.cmd(":VimuxRunCommand('make run')")
+    elseif ft == "rust" then
+        vim.cmd(":VimuxRunCommand('cargo run')")
+    end
+end
+
+
+map("n", "<leader>rp", function() save_and_run() end, {})
