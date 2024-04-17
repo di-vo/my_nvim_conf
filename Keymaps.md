@@ -30,6 +30,10 @@
 - T<c> -> inverse of t
   - , -> go to previous occurence of c
   - ; -> go to next occurence of c
+- vi<bracket> -> select everything in brackets
+- va<bracket> -> select everything in brackets including brackets
+- viw -> select current word
+  - this also works with c, d and y commands
 
 
 ## Vertical Movements
