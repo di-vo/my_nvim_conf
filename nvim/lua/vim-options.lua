@@ -1,5 +1,4 @@
 local map = vim.keymap.set
-local M = {}
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
